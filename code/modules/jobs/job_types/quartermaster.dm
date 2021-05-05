@@ -1,10 +1,12 @@
 /datum/job/quartermaster
 	title = "Quartermaster"
-	department_head = list("Head of Personnel")
+	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD // NON-MODULE CHANGE
+	department_head = list("Captain") // NON-MODULE CHANGE
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	req_admin_notify = 1 // NON-MODULE CHANGE
+	supervisors = "the captain" // NON-MODULE CHANGE
 	selection_color = "#d7b088"
 	exp_type_department = EXP_TYPE_SUPPLY // This is so the jobs menu can work properly
 
@@ -14,7 +16,7 @@
 	paycheck = PAYCHECK_MEDIUM
 	paycheck_department = ACCOUNT_CAR
 
-	liver_traits = list(TRAIT_PRETENDER_ROYAL_METABOLISM)
+	liver_traits = list(TRAIT_ROYAL_METABOLISM) // NON-MODULE CHANGE
 
 	display_order = JOB_DISPLAY_ORDER_QUARTERMASTER
 	bounty_types = CIV_JOB_RANDOM
@@ -40,7 +42,7 @@
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 	glasses = /obj/item/clothing/glasses/sunglasses
 	l_hand = /obj/item/clipboard
-	backpack_contents = list(/obj/item/modular_computer/tablet/preset/cargo=1, /obj/item/melee/classic_baton/telescopic=1) //NON-MODULAR CHANGE
+	backpack_contents = list(/obj/item/modular_computer/tablet/preset/advanced/command/cargo=1, /obj/item/melee/classic_baton/telescopic=1) //NON-MODULAR CHANGE
 
 	chameleon_extras = /obj/item/stamp/qm
 

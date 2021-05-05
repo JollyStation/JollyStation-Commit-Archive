@@ -253,6 +253,7 @@ GLOBAL_LIST_INIT(loadout_jumpsuits, list(
 /// Underslot - Formal Suit Items (Deletes overrided items)
 GLOBAL_LIST_INIT(loadout_undersuits, list(
 	"Amish Suit" = /obj/item/clothing/under/suit/sl,
+	"Assistant Formal" = /obj/item/clothing/under/misc/assistantformal,
 	"Beige Suit" = /obj/item/clothing/under/suit/beige,
 	"Black Suit" = /obj/item/clothing/under/suit/black,
 	"Black Suitskirt" = /obj/item/clothing/under/suit/black/skirt,
@@ -326,7 +327,6 @@ GLOBAL_LIST_INIT(loadout_miscunders, list(
 	"Track Pants" = /obj/item/clothing/under/pants/track,
 	"Young Folks Jeans" = /obj/item/clothing/under/pants/youngfolksjeans,
 	"White Pants" = /obj/item/clothing/under/pants/white,
-	"Assistant Formal" = /obj/item/clothing/under/misc/assistantformal,
 	"Kilt" = /obj/item/clothing/under/costume/kilt,
 	"Gladiator Armor" = /obj/item/clothing/under/costume/gladiator/loadout,
 	"Treasure Hunter" = /obj/item/clothing/under/rank/civilian/curator/treasure_hunter,
@@ -338,6 +338,7 @@ GLOBAL_LIST_INIT(loadout_inhand_items, list(
 	"Cane" = /obj/item/cane,
 	"Briefcase" = /obj/item/storage/briefcase,
 	"Secure Briefcase" = /obj/item/storage/secure/briefcase,
+	"Skateboard" = /obj/item/melee/skateboard,
 	"Bone Spear (Ceremonial)" = /obj/item/spear/bonespear/ceremonial,
 ))
 
@@ -372,6 +373,11 @@ GLOBAL_LIST_INIT(loadout_pocket_items, list(
 	"Ratvar Plush" = /obj/item/toy/plush/ratplush,
 	"Rouny Plush" = /obj/item/toy/plush/rouny,
 	"Snake Plush" = /obj/item/toy/plush/snakeplushie,
+	"Card Binder" = /obj/item/storage/card_binder,
+	"Playing Card Deck" = /obj/item/toy/cards/deck,
+	"Kotahi Deck" = /obj/item/toy/cards/deck/kotahi,
+	"Wizoff Deck" = /obj/item/toy/cards/deck/wizoff,
+	"Dice Bag" = /obj/item/storage/pill_bottle/dice,
 	"D1" = /obj/item/dice/d1,
 	"D2" = /obj/item/dice/d2,
 	"D4" = /obj/item/dice/d4,

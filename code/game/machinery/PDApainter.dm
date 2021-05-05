@@ -194,7 +194,7 @@
 			user.put_in_hands(stored_pda)
 		else
 			stored_pda.forceMove(drop_location())
-
+		stored_pda.update_appearance() // NON-MODULE CHANGE
 		stored_pda = null
 		update_icon()
 
