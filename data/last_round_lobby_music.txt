@@ -66,3 +66,5 @@ config/title_music/sounds/DD2 Meets Terraria The Music - Forest Biome - Build Ph
 config/title_music/sounds/MEGALOVANIA.ogg
 config/title_music/sounds/Battle Against A True Hero Super Smash Bros. Ultimate - FANMADE.ogg
 config/title_music/sounds/ASGORE.ogg
+config/title_music/sounds/End of Despair (FE Genealogy of the Holy War) [New Remix] - Super Smash Bros. Ultimate Soundtra.ogg
+config/title_music/sounds/Terraria - Boss 2 (Mario 64 cover).ogg
