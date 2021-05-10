@@ -69,3 +69,4 @@ config/title_music/sounds/ASGORE.ogg
 config/title_music/sounds/End of Despair (FE Genealogy of the Holy War) [New Remix] - Super Smash Bros. Ultimate Soundtra.ogg
 config/title_music/sounds/Terraria - Boss 2 (Mario 64 cover).ogg
 config/title_music/sounds/Come, Join Us! (Together We Ride) - Fire Emblem New Mystery of the Emblem.ogg
+config/title_music/sounds/The Time to Act! - Fire Emblem Shadow Dragon.ogg
