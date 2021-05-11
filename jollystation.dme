@@ -3600,5 +3600,7 @@
 #include "jollystation_modules\code\modules\modular_computers\computers\item\tablet_presets.dm"
 #include "jollystation_modules\code\modules\research\techweb\all_nodes.dm"
 #include "jollystation_modules\code\modules\skrell\flavor_misc_js.dm"
+#include "jollystation_modules\code\modules\uplink\uplink_devices.dm"
+#include "jollystation_modules\code\modules\uplink\uplink_items.dm"
 #include "jollystation_modules\code\modules\vending\_vending.dm"
 // END_INCLUDE
