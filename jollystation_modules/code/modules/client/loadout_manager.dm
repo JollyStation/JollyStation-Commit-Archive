@@ -1,3 +1,4 @@
+/// -- The loadout manager and UI --
 /// Defines for what loadout slot a corresponding item belongs to.
 #define LOADOUT_ITEM_BELT "belt"
 #define LOADOUT_ITEM_EARS "ears"

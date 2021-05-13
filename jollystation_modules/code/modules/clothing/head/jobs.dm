@@ -1,3 +1,4 @@
+/// -- Head clothing items for modular jobs --
 /obj/item/clothing/head/beret/black/bridge_officer
 	name = "officer's beret"
 	desc = "A black beret, armored and padded for protection, complete with a blue insignia emblazoned on the center to dignify the wearer as a bridge officer."

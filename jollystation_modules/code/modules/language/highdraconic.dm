@@ -1,4 +1,4 @@
-/// High draconic language. It's like Draconic, but more posh.
+/// -- High draconic language. It's like Draconic, but more posh. --
 /datum/language/impdraconic
 	name = "High Draconic"
 	desc = "A distinct dialect of Draconic common to lizards born and raised in the Core Systems of the Lizard Empire."

@@ -1,3 +1,4 @@
+/// -- Loadout accessories --
 /obj/item/clothing/accessory/armorless_talisman
 	name = "heirloom bone talisman"
 	desc = "A hand-me-down talisman made by an ancient hunter. The protection it offered once in the past is no longer."

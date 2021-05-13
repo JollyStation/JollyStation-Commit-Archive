@@ -1,3 +1,4 @@
+/// -- Loadout undersuits (jumpsuit kind) --
 /obj/item/clothing/under/suit/teal
 	name = "teal suit"
 	desc = "A teal suit and yellow necktie. An authoritative yet tacky ensemble."

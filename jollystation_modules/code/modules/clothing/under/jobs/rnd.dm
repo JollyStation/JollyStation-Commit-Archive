@@ -1,3 +1,4 @@
+/// -- Modular RND clothing. --
 /obj/item/clothing/under/rank/rnd/toxicologist
 	desc = "It's made of a special fiber that provides minor protection against explosives and radiation. It has markings that denote the wearer as a toxicologist."
 	name = "toxicologist's jumpsuit"

@@ -4,6 +4,7 @@
 	return list(/obj/item/pda/heads/bridge_officer = list(REGION_COMMAND))
 
 /obj/item/pda
+	/// The icon path of our modular PDAs
 	var/alt_icon = 'jollystation_modules/icons/obj/pda.dmi'
 
 /obj/item/pda/heads/bridge_officer

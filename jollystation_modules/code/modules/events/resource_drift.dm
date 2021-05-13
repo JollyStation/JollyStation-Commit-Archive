@@ -1,3 +1,4 @@
+// -- Resource drift event --
 // Spawns a bunch of crates and space dust and yeets them towards the station (sometimes)
 
 /// Defines for how much debris we're throwing at them

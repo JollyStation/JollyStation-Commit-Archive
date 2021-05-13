@@ -1,3 +1,4 @@
+/// -- Modular armor items. --
 /obj/item/clothing/suit/armor/vest/bridge_officer
 	name = "bridge officer's armor vest"
 	desc = "A rigid, comfortable piece of armor worn by Bridge Officers in tandem with their padded suits. Style and protection!"

@@ -1,16 +1,17 @@
-// Good quirks.
+// -- Good Modular quirks. --
 
-/// Blacklist for language quirks. We won't give these languages out.
+/// Blacklist for the random language quirk. We won't give these languages out.
 #define LANGUAGE_QUIRK_RANDOM_BLACKLIST list( \
 	/datum/language/uncommon, \
 	/datum/language/common, \
 	/datum/language/narsie, \
 	/datum/language/xenocommon )
 
-// Rebalance existing quirks
+// Rebalance of existing quirks
 /datum/quirk/jolly //haha
 	value = 3
 
+// New quirks
 /// Trilingual quirk - Gives the owner a language, either random or a set one.
 /datum/quirk/trilingual
 	name = "Language - Trilingual"

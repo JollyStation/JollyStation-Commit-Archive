@@ -1,4 +1,4 @@
-/// Skrell language
+/// -- Skrell language --
 /datum/language/skrell
 	name = "Skrellian"
 	desc = "A set of warbles and hums, the language itself a complex mesh of both melodic and rhythmic components, exceptionally capable of conveying intent and emotion of the speaker."

@@ -1,3 +1,4 @@
+/// -- Defines for antag datums and advanced antag datums. --
 /// Initial / base TC for advanced traitors.
 #define TRAITOR_PLUS_INITIAL_TC 8
 /// Max amount of TC advanced traitors can get.

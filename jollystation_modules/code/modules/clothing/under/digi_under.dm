@@ -1,4 +1,5 @@
 
+/// -- The big file that makes digitigrate pants work. --
 /obj/item/clothing
 	/// Whether we use the modular clothing dmi instead of the normal one.
 	var/use_modular_dmi = FALSE

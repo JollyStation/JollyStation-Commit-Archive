@@ -1,3 +1,4 @@
+// -- Felinid species additions --
 /datum/species/human/felinid
 	species_speech_sounds = list('jollystation_modules/sound/voice/cat.ogg' = 50)
 	species_speech_sounds_ask = list('jollystation_modules/sound/voice/cat_ask.ogg' = 70)

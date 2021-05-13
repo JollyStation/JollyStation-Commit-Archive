@@ -1,4 +1,4 @@
-/// Keybindings for communication verbs.
+/// -- Modular keybindings for communication verbs. --
 /datum/keybinding/client/communication/looc
 	hotkey_keys = list("L")
 	name = "LOOC"

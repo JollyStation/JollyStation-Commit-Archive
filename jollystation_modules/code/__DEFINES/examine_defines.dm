@@ -1,10 +1,4 @@
-//Skyrat SS13 Code Adapted for Jollystation, originally written by Gandalf2k15.
-/*
-These are the defines for controlling what conditions are required to display
-an items special description.
-See the examinemore module for information.
-*/
-
+/// -- Defines for the unique-examine element. --
 /// Displays the special_desc regardless if it's set.
 #define EXAMINE_CHECK_NONE "none"
 /// For displaying descriptors for those with a certain antag datum. Pass a list of type "datum/antagonist/"

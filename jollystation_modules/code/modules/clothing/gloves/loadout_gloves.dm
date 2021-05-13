@@ -1,4 +1,4 @@
-/// Extra glove items to be used in the loadout system.
+/// -- Loadout gloves --
 /obj/item/clothing/gloves/armorless_bracer
 	name = "heirloom bone bracers"
 	desc = "These bone bracers are made of real goliath bone, but have been degraded from years in combat and offer no protection."

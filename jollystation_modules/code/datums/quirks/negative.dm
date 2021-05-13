@@ -1,6 +1,6 @@
-// Bad quirks.
+// -- Bad modular quirks. --
 
-// Rebalance existing quirks
+// Rebalance of existing quirks
 /datum/quirk/nearsighted
 	value = -2
 

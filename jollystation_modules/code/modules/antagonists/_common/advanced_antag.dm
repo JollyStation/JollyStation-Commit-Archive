@@ -1,3 +1,4 @@
+/// -- Base advanced antag datum --
 /// The advanced antag datum - the datum that runs our advanced antags.
 /datum/advanced_antag_datum
 	/// The antagonist this datum is linked to.

@@ -1,4 +1,5 @@
-/// Extra flags for datum/antagonists
+/// -- Extension of the base antagonist datum. --
+/// Extra vars for datum/antagonists
 /datum/antagonist
 	/// Whether this antag can see exploitable info on examine.
 	var/antag_flags = CAN_SEE_EXPOITABLE_INFO

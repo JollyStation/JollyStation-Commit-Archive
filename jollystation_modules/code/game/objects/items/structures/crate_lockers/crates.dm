@@ -1,4 +1,4 @@
-/// Crates and crates galore!
+/// -- Modular Crates, and crates galore! ---
 
 /// -- Resource cache crates used for resource related events. --
 /obj/structure/closet/crate/resource_cache

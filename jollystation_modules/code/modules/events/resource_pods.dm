@@ -1,3 +1,4 @@
+// -- Resource drift event --
 /// This event spawns multiple cargo pods containing a few resources.
 /datum/round_event_control/resource_pods
 	name = "Resource Pods"

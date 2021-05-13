@@ -1,3 +1,4 @@
+// -- Bridge Officer job & outfit datum --
 /datum/job/bridge_officer
 	title = "Bridge Officer"
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD

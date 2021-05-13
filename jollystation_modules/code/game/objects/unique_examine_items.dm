@@ -1,3 +1,5 @@
+/// -- This file is ONLY for adding the unique_examine element onto items, pre-existing or modular. --
+
 /// Job defines
 #define SECURITY_JOBS_PLUS_CAP GLOB.security_positions + "Captain"
 /// Antag defines

@@ -1,6 +1,6 @@
-/// Advanced antag goal datum.
+/// -- Base Advanced antag goal datum. --
 /// Like your standard /datum/objective/custom, but with more fun stuff.
-/// Used by advanced traitors [/datum/antagonist/traitor/traitor_plus]
+/// Used by advanced antags [/datum/advaced_antagonist]
 /datum/advanced_antag_goal
 	/// Our antag datum
 	var/datum/advanced_antag_datum/our_antag

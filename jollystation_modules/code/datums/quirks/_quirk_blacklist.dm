@@ -1,4 +1,4 @@
-/// Separate file to add in additional blacklists for added quirks.
+/// -- Separate file to add in additional blacklists for modular quirks. --
 /datum/controller/subsystem/processing/quirks
 	// Add in quirk blackists here. Format is a list of a list of quirks that are incompatible.
 	var/list/module_blacklist = list( \

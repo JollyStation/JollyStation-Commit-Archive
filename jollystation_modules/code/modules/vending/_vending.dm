@@ -1,4 +1,4 @@
-/// Extension of /obj/machinery/vending to add products, contraband, and premium items to vendors.
+/// -- Extension of /obj/machinery/vending to add products, contraband, and premium items to vendors. --
 /obj/machinery/vending
 	/// Assoc list of products you want to add (typepath - amount)
 	var/added_products = list()

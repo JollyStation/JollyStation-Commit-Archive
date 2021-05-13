@@ -1,3 +1,6 @@
+/// Traitor plus gamemode.
+/// Spawns in some advanced traitors after a set delay into the round.
+/// Not guaranteed to still work with the recent gamemode changes upstream. Should probably be removed at some point.
 /datum/game_mode/traitor_plus
 	name = "traitor plus"
 	config_tag = "traitor_plus"

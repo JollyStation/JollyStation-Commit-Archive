@@ -1,4 +1,4 @@
-// Auto-transfer config values.
+// -- Auto-transfer config values. --
 /// Allow people to call votes for shuttle OOCly
 /datum/config_entry/flag/allow_vote_transfer
 

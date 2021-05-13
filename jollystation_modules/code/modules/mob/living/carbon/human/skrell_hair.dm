@@ -1,3 +1,4 @@
+/// -- Skrell headtentacles. --
 /datum/sprite_accessory/skrell_headtentacles
 	icon = 'jollystation_modules/icons/mob/skrell_hair.dmi'
 

@@ -1,3 +1,4 @@
+/// -- Loadout inhands --
 /obj/item/spear/bonespear/ceremonial
 	icon_state = "bone_spear0"
 	base_icon_state = "bone_spear0"

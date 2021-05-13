@@ -1,3 +1,4 @@
+// -- Toxicologist job & outfit datum --
 /datum/job/toxicologist
 	title = "Toxicologist"
 	department_head = list("Research Director")

@@ -1,3 +1,4 @@
+// -- Extra mob/ level procs and extensions --
 // This is pretty much just a mirror of atom/proc/prepare_huds().
 // There's probably be a better way of doing this...
 /atom/proc/prepare_jollystation_huds()

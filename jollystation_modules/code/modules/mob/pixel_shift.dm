@@ -1,4 +1,4 @@
-/// --- Pixelshifting UI and component. ---
+/// -- Pixelshifting UI and component. --
 /// Keybinding hotkey signal.
 #define COMSIG_KB_LIVING_PIXELSHIFT "pixelshift"
 

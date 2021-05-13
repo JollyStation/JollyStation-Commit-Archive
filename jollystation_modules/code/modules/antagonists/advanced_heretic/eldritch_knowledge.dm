@@ -1,3 +1,4 @@
+/// -- Extra extended/modular knowledge for advanced heretics --
 /// "No ascending allowed" knowledge added by advanced heretics.
 /datum/eldritch_knowledge/no_ascension
 	name = "The Faithless Oath"

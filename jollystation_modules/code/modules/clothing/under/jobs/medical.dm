@@ -1,3 +1,4 @@
+/// -- Modular medical clothing. --
 /obj/item/clothing/under/rank/medical/chief_medical_officer/turtleneck
 	name = "chief medical officer's turtleneck"
 	desc = "A light blue turtleneck and tan khakis, for a chief medical with a sense of style."

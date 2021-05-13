@@ -1,6 +1,5 @@
-/// ID Trims for station jobs.
-/datum/id_trim/job
-
+/// --ID Trims for modular jobs. --
+// Bridge Officer
 /datum/id_trim/job/bridge_officer
 	assignment = "Bridge Officer"
 	trim_icon = 'jollystation_modules/icons/obj/card.dmi'
@@ -17,6 +16,7 @@
 	config_job = "bridge_officer"
 	template_access = list(ACCESS_CAPTAIN, ACCESS_HOP, ACCESS_HOS, ACCESS_CHANGE_IDS)
 
+// Toxicologist
 /datum/id_trim/job/toxicologist
 	assignment = "Toxicologist"
 	trim_icon = 'jollystation_modules/icons/obj/card.dmi'
@@ -27,6 +27,7 @@
 	config_job = "toxicologist"
 	template_access = list(ACCESS_CAPTAIN, ACCESS_RD, ACCESS_CHANGE_IDS)
 
+// Xenobiologist
 /datum/id_trim/job/xenobiologist
 	assignment = "Xenobiologist"
 	trim_icon = 'jollystation_modules/icons/obj/card.dmi'

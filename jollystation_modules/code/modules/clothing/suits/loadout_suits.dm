@@ -1,3 +1,4 @@
+/// -- Loadout suits (the outer, exosuit kind) --
 /obj/item/clothing/suit/hooded/cloak/goliath_heirloom
 	name = "heirloom goliath cloak"
 	icon_state = "goliath_cloak"

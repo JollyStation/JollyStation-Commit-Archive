@@ -1,4 +1,5 @@
-/// Advanced heretic datum - advanced traitor, but for heretics!
+/// -- Advanced heretic datum --
+/// Advanced traitor, but for heretics!
 /datum/antagonist/heretic/heretic_plus
 	name = "Advanced Heretic"
 	give_equipment = FALSE

@@ -85,6 +85,7 @@
 /datum/antagonist/traitor/traitor_plus/roundend_report_footer()
 	return "<br>And thus ends another story on board [station_name()]."
 
+/// -- Advanced Traitor datum - ambitions but not bad. --
 /// An extra button for the TP, to open the goal panel
 /datum/antagonist/traitor/traitor_plus/get_admin_commands()
 	. = ..()
