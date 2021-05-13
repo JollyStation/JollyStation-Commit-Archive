@@ -70,3 +70,9 @@ config/title_music/sounds/End of Despair (FE Genealogy of the Holy War) [New Rem
 config/title_music/sounds/Terraria - Boss 2 (Mario 64 cover).ogg
 config/title_music/sounds/Come, Join Us! (Together We Ride) - Fire Emblem New Mystery of the Emblem.ogg
 config/title_music/sounds/The Time to Act! - Fire Emblem Shadow Dragon.ogg
+config/title_music/sounds/A Courageously Sad Song - SiIvaGunner King for Another Day.ogg
+config/title_music/sounds/Battle Against A True Hero Super Smash Bros. Ultimate - FANMADE.ogg
+config/title_music/sounds/Bonetrousle.ogg
+config/title_music/sounds/Once Upon A Time .ogg
+config/title_music/sounds/Undertale Phase 2 (Megalo Strike Back).ogg
+config/title_music/sounds/Terraria - Boss 2 (Mario 64 cover).ogg
