@@ -1,3 +1,0 @@
-time,players,tidi,tidi_fastavg,tidi_avg,tidi_slowavg,maptick,num_timers,air_turf_cost,air_eg_cost,air_highpressure_cost,air_hotspots_cost,air_superconductivity_cost,air_pipenets_cost,air_rebuilds_cost,air_turf_count,air_eg_count,air_hotspot_count,air_network_count,air_delta_count,air_superconductive_count
-134,0,0,0,0,0,0.0528,160,0,0,0,0,0,0,0,3752,0,0,122,0,0
-234,1,1,0.3,0.06,0.006,0.212512,27,0,0,0,0,0,0,0,3765,0,0,122,0,0
