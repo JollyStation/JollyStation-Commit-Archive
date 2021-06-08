@@ -19,3 +19,11 @@
 
 /obj/item/clothing/under/costume/gladiator/loadout
 	desc = "An almost pristine light-weight gladitorial armor set inspired by those the Ash Walkers wear. It's unarmored and looks very dated."
+
+/obj/item/clothing/under/color/greyscale
+	name = "greyscale jumpsuit"
+	greyscale_colors = "#eeeeee"
+
+/obj/item/clothing/under/color/jumpskirt/greyscale
+	name = "greyscale jumpskirt"
+	greyscale_colors = "#eeeeee"

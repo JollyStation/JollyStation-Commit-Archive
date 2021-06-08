@@ -1,5 +1,5 @@
 import { useBackend, useSharedState } from '../backend';
-import { Box, Button, Dimmer, Divider, Section, Stack, Tabs } from '../components';
+import { Box, Button, Dimmer, Divider, Section, Stack, Tabs, Tooltip } from '../components';
 import { Window } from '../layouts';
 
 export const _LoadoutManager = (props, context) => {
@@ -76,15 +76,33 @@ export const _LoadoutManager = (props, context) => {
                             <Stack.Item grow align="left">
                               {item.name}
                             </Stack.Item>
+                            { item.extra_info
+                            && !!item.extra_info.is_greyscale
+                            && (
+                              <Stack.Item>
+                                <Button
+                                  icon="palette"
+                                  onClick={() => act('select_color', {
+                                    category: selectedTab.slot,
+                                    path: item.path,
+                                  })} />
+                              </Stack.Item>
+                            )}
                             <Stack.Item>
                               <Button.Checkbox
                                 checked={selected_loadout.includes(item.path)}
                                 content="Select"
                                 fluid
+                                tooltip={item.extra_info
+                                  && !!item.extra_info.tooltip
+                                  ? (item.extra_info.tooltip_text) : ("")}
                                 onClick={() => act('select_item', {
                                   category: selectedTab.slot,
                                   path: item.path,
-                                  doReset: selected_loadout.includes(item.path),
+                                  deselect:
+                                    selected_loadout.includes(item.path),
+                                  greyscale: item.extra_info
+                                    ? (item.extra_info.is_greyscale) : (0),
                                 })} />
                             </Stack.Item>
                           </Stack>
