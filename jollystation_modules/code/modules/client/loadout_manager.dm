@@ -32,6 +32,7 @@
 	loadout_to_outfit()
 
 /datum/loadout_manager/ui_close(mob/user)
+	sanitize_loadout_list(owner.prefs.loadout_list)
 	if(menu)
 		SStgui.close_uis(menu)
 		menu = null

@@ -537,6 +537,10 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	medical_records = strip_html_simple(sanitize_text(medical_records), MAX_FLAVOR_LEN)
 	general_records = strip_html_simple(sanitize_text(general_records), MAX_FLAVOR_LEN)
 	exploitable_info = strip_html_simple(sanitize_text(exploitable_info), MAX_FLAVOR_LEN)
+
+	sanitize_loadout_list(loadout_list)
+	sanitize_loadout_list(greyscale_loadout_list)
+
 	//NON-MODULE CHANGES END
 
 	persistent_scars = sanitize_integer(persistent_scars)

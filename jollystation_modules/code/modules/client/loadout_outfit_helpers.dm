@@ -24,11 +24,14 @@
 	else if(istype(outfit))
 		equipped_outfit = outfit
 	else
-		return FALSE
+		CRASH("Outfit passed to equip_outfit_and_loadout was neither a path nor an instantiated type!")
 
 	var/list/loadout = preference_source?.loadout_list
 	for(var/slot in loadout)
 		var/move_to_backpack = null
+		if(isnull(loadout[slot]))
+			stack_trace("null value found while equipping loadout list! User: [src], Slot: [slot], [preference_source ? "Key: [preference_source.parent]" : "No key associated."]")
+			continue
 		switch(slot)
 			/// Key slots - Replaced, item moved to backpack
 			if(LOADOUT_ITEM_BELT)
@@ -100,6 +103,11 @@
 	equip_greyscale(visuals_only, preference_source)
 	return TRUE
 
+/* Equip our greyscales in our greyscale loadout config to the respective slots.
+ *
+ * visuals_only - whether we bother greyscaling our backpack items
+ * preference_source - the client belonging to the thing we're greyscaling
+ */
 /mob/living/carbon/human/proc/equip_greyscale(visuals_only = FALSE, datum/preferences/preference_source)
 	var/list/items = preference_source?.loadout_list
 	var/list/colors = preference_source?.greyscale_loadout_list
@@ -151,3 +159,32 @@
 
 	regenerate_icons()
 	return TRUE
+
+/* Removes all nulls, invalid paths, and bad slots from loadout lists.
+ *
+ * list_to_clean - the loadout list we're sanitizing.
+ */
+/proc/sanitize_loadout_list(list/list_to_clean)
+	if(!istype(list_to_clean))
+		return
+
+	for(var/slot in list_to_clean)
+		var/path = text2path(list_to_clean[slot])
+		if(isnull(path))
+			stack_trace("null value found in loadout list! Slot: [slot], Path: [path], Path Actual: [list_to_clean[slot]]")
+			list_to_clean -= slot
+			continue
+
+		if(!ispath(path))
+			stack_trace("invalid path found in loadout list!  Slot: [slot], Path: [path], Path Actual: [list_to_clean[slot]]")
+			list_to_clean[slot] = null
+			list_to_clean -= slot
+			continue
+
+		if(!(slot in GLOB.loadout_slots))
+			stack_trace("invalid loadout slot found in loadout list! Slot: [slot], Path: [path]")
+			list_to_clean[slot] = null
+			list_to_clean -= slot
+
+	if(!list_to_clean.len)
+		list_to_clean = null
