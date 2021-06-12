@@ -3642,6 +3642,7 @@
 #include "jollystation_modules\code\modules\clothing\under\jobs\security.dm"
 #include "jollystation_modules\code\modules\events\resource_drift.dm"
 #include "jollystation_modules\code\modules\events\resource_pods.dm"
+#include "jollystation_modules\code\modules\hydroponics\grown\beans.dm"
 #include "jollystation_modules\code\modules\jobs\access.dm"
 #include "jollystation_modules\code\modules\jobs\job_types\bridge_officer.dm"
 #include "jollystation_modules\code\modules\jobs\job_types\toxicologist.dm"
