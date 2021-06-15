@@ -138,7 +138,7 @@
 	sac_target.Dizzy(30)
 	sac_target.AdjustKnockdown(80)
 	sac_target.adjustStaminaLoss(120)
-	if(sac_target.has_quirk(/datum/quirk/allergic))
+	if(sac_target.has_quirk(/datum/quirk/item_quirk/allergic))
 		sac_target.reagents?.add_reagent(/datum/reagent/medicine/synaphydramine, 8)
 	else
 		sac_target.reagents?.add_reagent(/datum/reagent/medicine/atropine, 8)

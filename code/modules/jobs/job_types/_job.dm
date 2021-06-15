@@ -99,8 +99,6 @@
 	var/list/splits = splittext(string_type, "/")
 	var/endpart = splits[splits.len]
 
-	SSmapping.HACK_LoadMapConfig()
-
 	var/list/job_changes = SSmapping.config.job_changes
 	if(!(endpart in job_changes))
 		return list()
@@ -170,6 +168,10 @@
 	if(outfit_override || outfit)
 		//H.equipOutfit(outfit_override ? outfit_override : outfit, visualsOnly)
 		H.equip_outfit_and_loadout(outfit_override ? outfit_override : outfit, visualsOnly, preference_source?.prefs) /// NON-MODULE CHANGE: LOADOUTS
+
+	if(!visualsOnly && is_captain)
+		var/is_acting_captain = (title != "Captain")
+		SSjob.promote_to_captain(H, is_acting_captain)
 
 	if(!visualsOnly && is_captain)
 		var/is_acting_captain = (title != "Captain")

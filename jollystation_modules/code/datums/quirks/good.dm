@@ -23,7 +23,7 @@
 	/// The language we give out. If null, just grabs a random language.
 	var/datum/language/added_language
 
-/datum/quirk/trilingual/on_spawn()
+/datum/quirk/trilingual/post_add()
 	var/datum/language_holder/quirk_holder_languages = quirk_holder.get_language_holder()
 	if(!added_language)
 		added_language = pick(GLOB.all_languages - LANGUAGE_QUIRK_RANDOM_BLACKLIST)
@@ -71,7 +71,7 @@
 	medical_record_text = "Patient is trilingual and knows High Draconic."
 	added_language = /datum/language/impdraconic
 
-/datum/quirk/trilingual/high_draconic/on_spawn()
+/datum/quirk/trilingual/high_draconic/post_add()
 	var/datum/language_holder/quirk_holder_languages = quirk_holder.get_language_holder()
 	if(!quirk_holder_languages.has_language(/datum/language/draconic, TRUE))
 		added_language = null
@@ -86,7 +86,7 @@
 	lose_text = "<span class='notice'>You miss your appendix.</span>"
 	medical_record_text = "Patient had appendicitis in the past and has had their appendix surgically removed as a consequence."
 
-/datum/quirk/no_appendix/on_spawn()
+/datum/quirk/no_appendix/post_add()
 	var/mob/living/carbon/carbon_quirk_holder = quirk_holder
 	var/obj/item/organ/appendix/dumb_appendix = carbon_quirk_holder.getorganslot(ORGAN_SLOT_APPENDIX)
 	dumb_appendix.Remove(quirk_holder, TRUE)

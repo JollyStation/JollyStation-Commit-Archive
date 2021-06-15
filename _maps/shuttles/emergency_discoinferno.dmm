@@ -5,6 +5,10 @@
 "b" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/escape)
+"c" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/turf/open/floor/plating/elevatorshaft,
+/area/shuttle/escape)
 "d" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
@@ -62,6 +66,13 @@
 	},
 /turf/open/floor/mineral/gold,
 /area/shuttle/escape)
+"n" = (
+/obj/structure/table/wood/poker,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/gold,
+/area/shuttle/escape)
 "o" = (
 /obj/machinery/computer/communications{
 	dir = 8
@@ -74,11 +85,21 @@
 	},
 /turf/open/floor/mineral/gold,
 /area/shuttle/escape)
+"q" = (
+/obj/structure/statue/plasma/scientist{
+	anchored = 1;
+	custom_materials = list(/datum/material/plasma = 100000)
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/shuttle/escape)
 "r" = (
 /turf/open/floor/mineral/plasma/disco,
 /area/shuttle/escape)
 "s" = (
 /turf/open/floor/mineral/silver,
+/area/shuttle/escape)
+"t" = (
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/escape)
 "u" = (
 /obj/docking_port/mobile/emergency{
@@ -90,6 +111,10 @@
 	resistance_flags = 2
 	},
 /turf/open/floor/mineral/plasma/disco,
+/area/shuttle/escape)
+"v" = (
+/obj/machinery/jukebox/disco/indestructible,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/shuttle/escape)
 "w" = (
 /obj/machinery/door/airlock/gold,
@@ -115,6 +140,11 @@
 /obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
 /turf/open/floor/wood,
 /area/shuttle/escape)
+"C" = (
+/obj/machinery/computer/slot_machine,
+/obj/machinery/light/directional/west,
+/turf/open/floor/wood,
+/area/shuttle/escape)
 "D" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -137,6 +167,16 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
+/area/shuttle/escape)
+"H" = (
+/obj/structure/table/wood/fancy,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/machinery/light/directional/east,
+/obj/item/coin/plasma,
+/obj/item/coin/plasma,
+/turf/open/floor/wood,
 /area/shuttle/escape)
 "I" = (
 /obj/machinery/computer/slot_machine{
@@ -174,47 +214,7 @@
 "O" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/escape)
-"P" = (
-/turf/open/floor/light/colour_cycle/dancefloor_a,
-/area/shuttle/escape)
-"Q" = (
-/obj/machinery/computer/slot_machine,
-/obj/machinery/light/directional/west,
-/turf/open/floor/wood,
-/area/shuttle/escape)
 "R" = (
-/obj/machinery/jukebox/disco/indestructible,
-/turf/open/floor/light/colour_cycle/dancefloor_a,
-/area/shuttle/escape)
-"S" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/plating/elevatorshaft,
-/area/shuttle/escape)
-"T" = (
-/obj/structure/table/wood/fancy,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/machinery/light/directional/east,
-/obj/item/coin/plasma,
-/obj/item/coin/plasma,
-/turf/open/floor/wood,
-/area/shuttle/escape)
-"V" = (
-/obj/structure/table/wood/poker,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
-/obj/machinery/light/directional/south,
-/turf/open/floor/mineral/gold,
-/area/shuttle/escape)
-"W" = (
-/obj/structure/statue/plasma/scientist{
-	anchored = 1;
-	custom_materials = list(/datum/material/plasma = 100000)
-	},
-/turf/open/floor/light/colour_cycle/dancefloor_b,
-/area/shuttle/escape)
-"Z" = (
 /turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/shuttle/escape)
 
@@ -226,19 +226,19 @@ a
 b
 b
 b
-S
+c
 b
 u
 b
-S
-S
-S
+c
+c
+c
 b
 O
 b
 w
 b
-S
+c
 b
 a
 "}
@@ -248,7 +248,7 @@ b
 b
 b
 O
-W
+q
 r
 r
 r
@@ -258,10 +258,10 @@ r
 r
 r
 r
-W
-S
+q
+c
 x
-Q
+C
 I
 b
 b
@@ -271,7 +271,7 @@ b
 b
 h
 m
-S
+c
 r
 r
 r
@@ -283,7 +283,7 @@ r
 r
 r
 r
-S
+c
 x
 D
 D
@@ -291,23 +291,23 @@ M
 N
 "}
 (4,1,1) = {"
-S
+c
 d
 i
 i
-S
+c
 r
 r
 r
 j
 j
-P
+t
 j
 j
 r
 r
 r
-S
+c
 x
 x
 x
@@ -315,23 +315,23 @@ M
 N
 "}
 (5,1,1) = {"
-S
+c
 e
 j
 j
-S
+c
 r
 r
 s
 j
-P
-Z
-P
+t
+R
+t
 j
 s
 r
 r
-S
+c
 y
 E
 y
@@ -339,23 +339,23 @@ M
 N
 "}
 (6,1,1) = {"
-S
+c
 f
 j
-V
-S
+n
+c
 r
 j
 j
-P
-Z
+t
 R
-Z
-P
+v
+R
+t
 j
 j
 r
-S
+c
 z
 F
 J
@@ -363,7 +363,7 @@ M
 N
 "}
 (7,1,1) = {"
-S
+c
 e
 j
 j
@@ -372,14 +372,14 @@ r
 r
 s
 j
-P
-Z
-P
+t
+R
+t
 j
 s
 r
 r
-S
+c
 y
 G
 y
@@ -387,23 +387,23 @@ M
 N
 "}
 (8,1,1) = {"
-S
+c
 g
 k
 k
-S
+c
 r
 r
 r
 j
 j
-P
+t
 j
 j
 r
 r
 r
-S
+c
 x
 x
 x
@@ -415,7 +415,7 @@ b
 b
 l
 o
-S
+c
 r
 r
 r
@@ -427,7 +427,7 @@ r
 r
 r
 r
-S
+c
 A
 x
 K
@@ -440,7 +440,7 @@ b
 b
 b
 O
-W
+q
 r
 r
 r
@@ -450,10 +450,10 @@ r
 r
 r
 r
-W
-S
+q
+c
 B
-T
+H
 L
 b
 b
@@ -466,19 +466,19 @@ a
 b
 b
 b
-S
+c
 b
 b
 b
-S
-S
-S
+c
+c
+c
 b
 b
 b
-S
+c
 b
-S
+c
 b
 a
 "}

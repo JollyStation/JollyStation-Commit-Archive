@@ -16,6 +16,12 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/mining)
+"e" = (
+/obj/structure/table,
+/obj/item/radio,
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/mining)
 "f" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -41,6 +47,23 @@
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/mining)
+"j" = (
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/mining)
+"k" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/mining)
 "l" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/corner{
@@ -51,11 +74,35 @@
 	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/mining)
+"m" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Lavaland Shuttle Airlock"
+	},
+/obj/docking_port/mobile{
+	dir = 8;
+	dwidth = 3;
+	height = 5;
+	id = "mining_common";
+	name = "lavaland shuttle";
+	port_direction = 4;
+	width = 7
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/mining)
 "n" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/effect/turf_decal/bot,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/mining)
+"o" = (
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/mining)
 "p" = (
@@ -76,53 +123,6 @@
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating/airless,
 /area/shuttle/mining)
-"D" = (
-/obj/structure/table,
-/obj/item/radio,
-/obj/item/radio/intercom/directional/north,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
-"M" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Lavaland Shuttle Airlock"
-	},
-/obj/docking_port/mobile{
-	dir = 8;
-	dwidth = 3;
-	height = 5;
-	id = "mining_common";
-	name = "lavaland shuttle";
-	port_direction = 4;
-	width = 7
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/shuttle/mining)
-"N" = (
-/obj/structure/closet/crate,
-/obj/effect/turf_decal/delivery,
-/obj/machinery/airalarm/directional/west,
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
-"U" = (
-/obj/machinery/light/directional/west,
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
-"Y" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
 
 (1,1,1) = {"
 a
@@ -137,23 +137,23 @@ a
 a
 c
 f
-U
+j
 n
-N
+o
 r
 "}
 (3,1,1) = {"
 b
 d
 g
-Y
+k
 n
 p
 s
 "}
 (4,1,1) = {"
 a
-D
+e
 h
 l
 n
@@ -164,7 +164,7 @@ r
 a
 a
 b
-M
+m
 b
 a
 a

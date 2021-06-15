@@ -92,11 +92,12 @@
 "pj" = (
 /turf/template_noop,
 /area/template_noop)
-"pt" = (
-/obj/structure/table/wood/poker,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
-/obj/machinery/light/directional/south,
+"pI" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/wood,
+/area/shuttle/escape)
+"qU" = (
+/obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "ss" = (
@@ -122,6 +123,10 @@
 	dir = 9
 	},
 /turf/open/floor/wood,
+/area/shuttle/escape)
+"wf" = (
+/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/turf/open/floor/plating/elevatorshaft,
 /area/shuttle/escape)
 "wn" = (
 /obj/structure/chair/comfy/brown{
@@ -159,10 +164,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/wood,
 /area/shuttle/escape)
-"zV" = (
-/obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
-/turf/open/floor/plating/elevatorshaft,
-/area/shuttle/escape)
 "zZ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -189,10 +190,6 @@
 	},
 /turf/open/floor/wood,
 /area/shuttle/escape)
-"DS" = (
-/obj/machinery/light/directional/west,
-/turf/open/floor/wood,
-/area/shuttle/escape)
 "Hi" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
@@ -209,10 +206,6 @@
 /obj/machinery/computer/security{
 	dir = 8
 	},
-/turf/open/floor/wood,
-/area/shuttle/escape)
-"JJ" = (
-/obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "JR" = (
@@ -298,6 +291,13 @@
 /obj/item/kitchen/knife,
 /turf/open/floor/wood,
 /area/shuttle/escape)
+"Yr" = (
+/obj/structure/table/wood/poker,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood,
+/area/shuttle/escape)
 "Zo" = (
 /obj/structure/table/wood/bar,
 /turf/open/floor/wood,
@@ -320,19 +320,19 @@ pj
 tG
 tG
 tG
-zV
+wf
 tG
 ss
 tG
-zV
-zV
-zV
+wf
+wf
+wf
 tG
 hF
 tG
 QO
 tG
-zV
+wf
 tG
 pj
 "}
@@ -355,7 +355,7 @@ Cg
 AT
 ce
 Ky
-DS
+pI
 Ky
 tG
 tG
@@ -385,7 +385,7 @@ KJ
 od
 "}
 (4,1,1) = {"
-zV
+wf
 Hi
 We
 We
@@ -409,7 +409,7 @@ KJ
 od
 "}
 (5,1,1) = {"
-zV
+wf
 wn
 Ky
 Ky
@@ -433,10 +433,10 @@ KJ
 od
 "}
 (6,1,1) = {"
-zV
+wf
 im
 Ky
-pt
+Yr
 zx
 cP
 Cg
@@ -457,7 +457,7 @@ KJ
 od
 "}
 (7,1,1) = {"
-zV
+wf
 wn
 Ky
 Ky
@@ -481,7 +481,7 @@ KJ
 od
 "}
 (8,1,1) = {"
-zV
+wf
 zt
 xK
 xK
@@ -547,7 +547,7 @@ Cg
 AT
 ce
 Ky
-JJ
+qU
 Ky
 tG
 tG
@@ -560,19 +560,19 @@ pj
 tG
 tG
 tG
-zV
+wf
 tG
 tG
 tG
-zV
-zV
-zV
+wf
+wf
+wf
 tG
 tG
 tG
-zV
+wf
 tG
-zV
+wf
 tG
 pj
 "}

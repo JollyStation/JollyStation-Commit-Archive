@@ -63,6 +63,16 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/ruin/unpowered)
+"l" = (
+/obj/machinery/light/directional/east,
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/pizzaparty,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/unpowered)
 "m" = (
 /obj/item/chair/wood/wings,
 /obj/effect/decal/cleanable/dirt,
@@ -72,6 +82,13 @@
 /area/ruin/unpowered)
 "n" = (
 /obj/structure/glowshroom/single,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/unpowered)
+"o" = (
+/obj/item/plate,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood{
 	initial_gas_mix = "LAVALAND_ATMOS"
@@ -139,6 +156,13 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/ruin/unpowered)
+"y" = (
+/obj/structure/table/wood,
+/obj/item/plate,
+/turf/open/floor/wood{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/unpowered)
 "z" = (
 /obj/structure/table/wood,
 /obj/structure/glowshroom/single,
@@ -147,9 +171,10 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/ruin/unpowered)
-"B" = (
+"A" = (
 /obj/structure/table/wood,
 /obj/item/plate,
+/obj/item/kitchen/fork,
 /turf/open/floor/wood{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
@@ -160,6 +185,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/unpowered)
+"D" = (
+/obj/structure/table/wood,
+/obj/item/food/pizzaslice/margherita,
+/obj/item/plate,
+/turf/open/floor/wood{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/ruin/unpowered)
@@ -239,48 +272,15 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/ruin/unpowered)
+"P" = (
+/obj/machinery/light/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/unpowered)
 "Q" = (
 /turf/open/floor/plating{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/ruin/unpowered)
-"S" = (
-/obj/item/plate,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/ruin/unpowered)
-"U" = (
-/obj/structure/table/wood,
-/obj/item/food/pizzaslice/margherita,
-/obj/item/plate,
-/turf/open/floor/wood{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/ruin/unpowered)
-"V" = (
-/obj/structure/table/wood,
-/obj/item/plate,
-/obj/item/kitchen/fork,
-/turf/open/floor/wood{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/ruin/unpowered)
-"X" = (
-/obj/machinery/light/directional/east,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/ruin/unpowered)
-"Y" = (
-/obj/machinery/light/directional/east,
-/obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/pizzaparty,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/wood{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/ruin/unpowered)
@@ -412,7 +412,7 @@ b
 b
 d
 g
-S
+o
 h
 h
 C
@@ -435,7 +435,7 @@ h
 p
 q
 x
-U
+D
 K
 M
 d
@@ -454,7 +454,7 @@ e
 i
 h
 r
-B
+y
 E
 h
 h
@@ -494,7 +494,7 @@ e
 e
 h
 t
-V
+A
 G
 q
 h
@@ -536,7 +536,7 @@ h
 u
 s
 s
-S
+o
 n
 d
 b
@@ -551,13 +551,13 @@ b
 b
 b
 d
-Y
+l
 i
 h
 e
 I
 L
-X
+P
 d
 b
 b
